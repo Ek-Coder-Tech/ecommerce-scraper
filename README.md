@@ -49,21 +49,25 @@ press_scraper/
 
 ---
 
+
+---
+
+
+---
+
 ## 📊 Sample Output (Sanitized)  
 
 > *Note: Dataset samples (CSV, JSON, Excel) are fully sanitized for legal and ethical reasons. The terminal screenshot shows a real scraper run on live data, but no raw client data is shared.*  
 
-### Example CSV (products.csv)  
-| id         | title               | handle              | vendor       | price_min | price_max | url                                   |  
-|------------|---------------------|---------------------|--------------|-----------|-----------|---------------------------------------|  
-| 1000000001 | Sample Product A    | sample-product-a    | Demo Store   | 19.99     | 19.99     | https://www.example.com/product-a     |  
-| 1000000002 | Sample Product B    | sample-product-b    | Demo Store   | 24.99     | 29.99     | https://www.example.com/product-b     |  
+### Example CSV (`products.csv`)  
 
----
+| id         | title            | handle             | vendor      | price_min | price_max | url                               |
+|------------|-----------------|------------------|------------|-----------|-----------|----------------------------------|
+| 1000000001 | Sample Product A | sample-product-a | Demo Store | 19.99     | 19.99     | https://www.example.com/product-a |
+| 1000000002 | Sample Product B | sample-product-b | Demo Store | 24.99     | 29.99     | https://www.example.com/product-b |
 
-### Example JSON (products.json)  
+### Example JSON (`products.json`)  
 
-```markdown
 ```json
 [
   {
@@ -86,13 +90,12 @@ press_scraper/
   }
 ]
 
----
 
-## 🚀 How It Works  
+🚀 How It Works
 
-1. **Activate the virtual environment**  
-   - Windows (PowerShell): & venv\Scripts\Activate.ps1  
-   - Linux / MacOS: source venv/bin/activate  
+1. **Activate the virtual environment**
+   Windows (PowerShell): & venv\Scripts\Activate.ps1
+   Linux / MacOS: source venv/bin/activate
    ![Run and structure](screenshots/run_and_structure.png)  
    *📸 Screenshot: Running the scraper project and viewing folder structure*  
 
