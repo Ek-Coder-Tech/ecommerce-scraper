@@ -63,6 +63,7 @@ press_scraper/
 
 ### Example JSON (products.json)  
 
+```markdown
 ```json
 [
   {
