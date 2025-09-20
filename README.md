@@ -89,7 +89,9 @@ press_scraper/
     "url": "https://www.example.com/product-b"
   }
 ]
+\`\`\`
 
+---
 
 🚀 How It Works
 
