@@ -86,7 +86,7 @@ press_scraper/
 
 ---
 
-🚀 How It Works
+## 🚀 How It Works
 
 1. **Activate the virtual environment**
    Windows (PowerShell): & venv\Scripts\Activate.ps1
@@ -128,13 +128,13 @@ All processed files are saved inside the `outputs/` folder:
    pip install -r requirements.txt  
 
 4. Run the Workflow  
-   # Step 1: Fetch product data  
+   Step 1: Fetch product data  
    python -m scraper.fetch_products_api  
 
-   # Step 2: Parse & clean product data  
+   Step 2: Parse & clean product data  
    python -m scraper.parse_products  
 
-   # Step 3: Export to CSV, Excel, JSON  
+   Step 3: Export to CSV, Excel, JSON  
    python -m scraper.export_products  
 
 The final structured outputs will be available in the `outputs/` directory.  
