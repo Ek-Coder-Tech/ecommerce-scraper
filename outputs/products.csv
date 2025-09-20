@@ -1,0 +1,11 @@
+id,title,handle,vendor,price_min,price_max,url
+100001,"12 x Cacao, Oat & Raspberry Shroombar",12-pack-cacao-oat-raspberry-shroombar,Example Vendor,27.00,27.0,https://www.example.com/products/12-pack-cacao-oat-raspberry-shroombar
+100002,1250 Calorie Plan 1 Week,1250-calorie-plan-1-week,Example Vendor,112.50,157.5,https://www.example.com/products/1250-calorie-plan-1-week
+100003,1250 Calorie Plan 1 Week WEEK B,1250-calorie-plan-1-week-b,Example Vendor,112.50,157.5,https://www.example.com/products/1250-calorie-plan-1-week-b
+100004,1250 Calorie Plan 2 Weeks,1250-calorie-plan-2-weeks,Example Vendor,67.50,157.5,https://www.example.com/products/1250-calorie-plan-2-weeks
+100005,1250 Calorie Plan 2 Weeks WEEK B,1250-calorie-plan-2-weeks-b,Example Vendor,67.50,157.5,https://www.example.com/products/1250-calorie-plan-2-weeks-b
+100006,1250 Calorie Plan 4 Weeks,1250-calorie-plan-4-weeks,Example Vendor,60.75,141.75,https://www.example.com/products/1250-calorie-plan-4-weeks
+100007,1250 Calorie Plan 4 Weeks WEEK B,1250-calorie-plan-4-weeks-b,Example Vendor,60.75,141.75,https://www.example.com/products/1250-calorie-plan-4-weeks-b
+100008,1250 Calorie Plan 8 Weeks,1250-calorie-plan-8-weeks,Example Vendor,57.38,133.88,https://www.example.com/products/1250-calorie-plan-8-weeks
+100009,1250 Calorie Plan 8 Weeks WEEK B,1250-calorie-plan-8-weeks-b,Example Vendor,57.38,133.88,https://www.example.com/products/1250-calorie-plan-8-weeks-b
+100010,1500 Calorie Plan 1 Week,1500-calorie-plan-1-week,Example Vendor,125.00,175.0,https://www.example.com/products/1500-calorie-plan-1-week

@@ -1,0 +1,92 @@
+[
+  {
+    "id": 100001,
+    "title": "Protein Bar - Hazelnut",
+    "handle": "protein-bar-hazelnut",
+    "vendor": "Example Vendor",
+    "price_min": 2.5,
+    "price_max": 2.5,
+    "url": "https://www.example.com/products/protein-bar-hazelnut"
+  },
+  {
+    "id": 100002,
+    "title": "Protein Bar - Peanut",
+    "handle": "protein-bar-peanut",
+    "vendor": "Example Vendor",
+    "price_min": 2.5,
+    "price_max": 2.5,
+    "url": "https://www.example.com/products/protein-bar-peanut"
+  },
+  {
+    "id": 100003,
+    "title": "Green Curry Meal",
+    "handle": "green-curry-meal",
+    "vendor": "Example Vendor",
+    "price_min": 5.5,
+    "price_max": 5.5,
+    "url": "https://www.example.com/products/green-curry-meal"
+  },
+  {
+    "id": 100004,
+    "title": "Chickpea Masala",
+    "handle": "chickpea-masala",
+    "vendor": "Example Vendor",
+    "price_min": 5.5,
+    "price_max": 5.5,
+    "url": "https://www.example.com/products/chickpea-masala"
+  },
+  {
+    "id": 100005,
+    "title": "Tofu with Vegetables",
+    "handle": "tofu-with-vegetables",
+    "vendor": "Example Vendor",
+    "price_min": 5.5,
+    "price_max": 5.5,
+    "url": "https://www.example.com/products/tofu-with-vegetables"
+  },
+  {
+    "id": 100006,
+    "title": "Chicken Teriyaki",
+    "handle": "chicken-teriyaki",
+    "vendor": "Example Vendor",
+    "price_min": 5.5,
+    "price_max": 5.5,
+    "url": "https://www.example.com/products/chicken-teriyaki"
+  },
+  {
+    "id": 100007,
+    "title": "Spaghetti Bolognese",
+    "handle": "spaghetti-bolognese",
+    "vendor": "Example Vendor",
+    "price_min": 5.5,
+    "price_max": 5.5,
+    "url": "https://www.example.com/products/spaghetti-bolognese"
+  },
+  {
+    "id": 100008,
+    "title": "Healthy Meal Plan - 1 Week",
+    "handle": "meal-plan-1-week",
+    "vendor": "Example Vendor",
+    "price_min": 65,
+    "price_max": 75,
+    "url": "https://www.example.com/products/meal-plan-1-week"
+  },
+  {
+    "id": 100009,
+    "title": "Healthy Meal Plan - 2 Weeks",
+    "handle": "meal-plan-2-weeks",
+    "vendor": "Example Vendor",
+    "price_min": 120,
+    "price_max": 140,
+    "url": "https://www.example.com/products/meal-plan-2-weeks"
+  },
+  {
+    "id": 100010,
+    "title": "Detox Bundle",
+    "handle": "detox-bundle",
+    "vendor": "Example Vendor",
+    "price_min": 99,
+    "price_max": 110,
+    "url": "https://www.example.com/products/detox-bundle"
+  }
+]
