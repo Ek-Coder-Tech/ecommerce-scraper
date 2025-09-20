@@ -59,6 +59,8 @@ press_scraper/
 | 1000000001 | Sample Product A    | sample-product-a    | Demo Store   | 19.99     | 19.99     | https://www.example.com/product-a     |  
 | 1000000002 | Sample Product B    | sample-product-b    | Demo Store   | 24.99     | 29.99     | https://www.example.com/product-b     |  
 
+---
+
 ### Example JSON (products.json)  
 ```json
 [
@@ -82,6 +84,7 @@ press_scraper/
   }
 ]
 
+---
 
 ## 🚀 How It Works  
 
