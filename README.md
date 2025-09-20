@@ -117,8 +117,9 @@ All processed files are saved inside the `outputs/` folder:
 ## ⚙️ Installation & Usage  
 
 1. Clone the Repository  
-   git clone https://github.com/Ek-Coder-Tech/press_scraper.git  
-   cd press_scraper  
+   ```bash
+   git clone https://github.com/Ek-Coder-Tech/ecommerce-scraper.git
+   cd ecommerce-scraper  
 
 2. Create a Virtual Environment  
    - Windows: python -m venv venv && venv\Scripts\activate  
@@ -207,8 +208,8 @@ Licensed under the MIT License — you are free to use and adapt with attributio
 ## 🙌 Acknowledgments / Author Info  
 
 Developed by **Eric — Python Automation & Web Developer**  
-- 🔗 GitHub: [https://github.com/Ek-Coder-Tech]  
-- 💼 Upwork: [https://www.upwork.com/freelancers/~012558bab6232e8e65]  
-- 🎯 Fiverr: [https://www.fiverr.com/sellers/eric_mutisya/edit]  
+- 🔗 [GitHub Profile](https://github.com/Ek-Coder-Tech)  
+- 💼 [Upwork Profile](https://www.upwork.com/freelancers/~012558bab6232e8e65)  
+- 🎯 [Fiverr Profile](https://www.fiverr.com/sellers/eric_mutisya) 
 
 Special thanks to the Python open-source community for the libraries and tools that made this project possible.  
