@@ -62,6 +62,7 @@ press_scraper/
 ---
 
 ### Example JSON (products.json)  
+
 ```json
 [
   {
