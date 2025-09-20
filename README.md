@@ -78,6 +78,7 @@ press_scraper/
     "price_min": 19.99,
     "price_max": 19.99,
     "url": "https://www.example.com/product-a"
+```markdown
   },
   {
     "id": 1000000002,
@@ -89,9 +90,6 @@ press_scraper/
     "url": "https://www.example.com/product-b"
   }
 ]
-\`\`\`
-
----
 
 🚀 How It Works
 
