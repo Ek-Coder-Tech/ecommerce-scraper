@@ -49,12 +49,6 @@ press_scraper/
 
 ---
 
-
----
-
-
----
-
 ## 📊 Sample Output (Sanitized)  
 
 > *Note: Dataset samples (CSV, JSON, Excel) are fully sanitized for legal and ethical reasons. The terminal screenshot shows a real scraper run on live data, but no raw client data is shared.*  
@@ -66,9 +60,9 @@ press_scraper/
 | 1000000001 | Sample Product A | sample-product-a | Demo Store | 19.99     | 19.99     | https://www.example.com/product-a |
 | 1000000002 | Sample Product B | sample-product-b | Demo Store | 24.99     | 29.99     | https://www.example.com/product-b |
 
+
 ### Example JSON (`products.json`)  
 
-```json
 [
   {
     "id": 1000000001,
@@ -78,7 +72,6 @@ press_scraper/
     "price_min": 19.99,
     "price_max": 19.99,
     "url": "https://www.example.com/product-a"
-```markdown
   },
   {
     "id": 1000000002,
@@ -90,6 +83,8 @@ press_scraper/
     "url": "https://www.example.com/product-b"
   }
 ]
+
+---
 
 🚀 How It Works
 
