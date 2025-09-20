@@ -91,12 +91,12 @@ press_scraper/
 1. **Activate the virtual environment**
    Windows (PowerShell): & venv\Scripts\Activate.ps1
    Linux / MacOS: source venv/bin/activate
-   ![Run and structure](screenshots/run_and_structure.png)  
+   ![Run and structure](screenshots/run_and_structure.PNG)  
    *📸 Screenshot: Running the scraper project and viewing folder structure*  
 
 2. **Run the scraper to fetch products**  
    python -m scraper.fetch_products_api  
-   ![Code snippet](screenshots/code_snippet.png)  
+   ![Code snippet](screenshots/code_snippet.PNG)  
    *📸 Screenshot: Example code snippet from `fetch_products_api.py`*  
 
 3. **Parse and clean the data**  
@@ -104,7 +104,7 @@ press_scraper/
 
 4. **Export the datasets**  
    python -m scraper.export_products  
-   ![Excel output](screenshots/excel_output.png)  
+   ![Excel output](screenshots/excel_output.PNG)  
    *📸 Screenshot: Cleaned product dataset exported to Excel*  
 
 All processed files are saved inside the `outputs/` folder:  
