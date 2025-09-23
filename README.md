@@ -25,34 +25,29 @@ The project highlights a client-ready, ethical approach to web scraping with out
 ## 📂 Project Structure  
 
 ecommerce-scraper/
-├── main.py                       # Runs the full workflow (fetch → parse → export)
+├── main.py # Runs the full workflow (fetch → parse → export)
 ├── scraper/
-│   ├── __init__.py
-│   ├── fetch_products_api.py     # Fetches product data with pagination (API-based)  
-│   ├── parse_products.py         # Cleans and structures raw product data  
-│   ├── export_products.py        # Exports datasets to CSV, JSON, Excel  
-│   ├── rate_limiter.py           # Polite scraping with basic rate limiting  
-│   ├── robots_checker.py         # Checks robots.txt compliance  
-│   ├── logger.py                 # Centralized logging (console + logs/scraper.log)  
-│   └── utils.py                  # Optional helper functions (can be empty for now)  
-│
-├── outputs/                      # Sanitized sample outputs (no real URLs)  
-│   ├── products.json  
-│   ├── products.csv  
-│   ├── products_clean.csv  
-│   ├── variants.csv  
-│   └── products.xlsx  
-│
-├── logs/                         # Log files for debugging & auditing
-│   └── scraper.log  
-│
-├── screenshots/                  # Portfolio screenshots  
-│   ├── run_and_structure.png     # Combined terminal run + project structure  
-│   ├── excel_output.png          # Sanitized Excel output sample  
-│   ├── code_snippet.png          # Key code excerpt (sanitized)  
-│
-├── README.md  
-└── requirements.txt  
+│ ├── init.py
+│ ├── fetch_products_api.py ✅ includes robots.txt check, rate limiter, logging
+│ ├── parse_products.py ✅ has parse_products() function
+│ ├── export_products.py ✅ has export_products() and export_to_excel()
+│ ├── rate_limiter.py
+│ ├── robots_checker.py
+│ ├── logger.py ✅ centralized console + file logging
+│ └── utils.py (optional/empty for now)
+├── outputs/
+│ ├── products.json
+│ ├── products.csv
+│ ├── products_clean.csv
+│ ├── variants.csv
+│ └── products.xlsx
+├── logs/
+│ └── scraper.log ✅ detailed logs of each run
+└── screenshots/
+├── run_and_structure.png
+├── excel_output.png
+├── code_snippet.png
+└── logs_output.PNG  
   
 ---
 
