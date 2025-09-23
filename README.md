@@ -18,35 +18,42 @@ The project highlights a client-ready, ethical approach to web scraping with out
   - `variants.csv` – Variant-level details  
   - `products.xlsx` – Excel with multiple sheets (Products & Variants)  
   - `products.json` – Raw structured data  
-- **Ethical & Professional Practices** – Custom User-Agent, robots.txt compliance, and polite rate limiting.  
+- **Ethical & Professional Practices** – Custom User-Agent, robots.txt compliance, and rate limiting, and centralized logging. 
 
 ---
 
 ## 📂 Project Structure  
 
-press_scraper/  
-│  
-├── scraper/  
+ecommerce-scraper/
+├── main.py                       # Runs the full workflow (fetch → parse → export)
+├── scraper/
+│   ├── __init__.py
 │   ├── fetch_products_api.py     # Fetches product data with pagination (API-based)  
 │   ├── parse_products.py         # Cleans and structures raw product data  
 │   ├── export_products.py        # Exports datasets to CSV, JSON, Excel  
 │   ├── rate_limiter.py           # Polite scraping with basic rate limiting  
 │   ├── robots_checker.py         # Checks robots.txt compliance  
-│  
-├── outputs/                      # Sample sanitized outputs (no real URLs)  
+│   ├── logger.py                 # Centralized logging (console + logs/scraper.log)  
+│   └── utils.py                  # Optional helper functions (can be empty for now)  
+│
+├── outputs/                      # Sanitized sample outputs (no real URLs)  
 │   ├── products.json  
 │   ├── products.csv  
 │   ├── products_clean.csv  
-│   ├── products.xlsx  
-│  
+│   ├── variants.csv  
+│   └── products.xlsx  
+│
+├── logs/                         # Log files for debugging & auditing
+│   └── scraper.log  
+│
 ├── screenshots/                  # Portfolio screenshots  
 │   ├── run_and_structure.png     # Combined terminal run + project structure  
 │   ├── excel_output.png          # Sanitized Excel output sample  
 │   ├── code_snippet.png          # Key code excerpt (sanitized)  
-│  
+│
 ├── README.md  
 └── requirements.txt  
-
+  
 ---
 
 ## 📊 Sample Output (Sanitized)  
@@ -114,6 +121,14 @@ All processed files are saved inside the `outputs/` folder:
 
 ---
 
+📝 Logging
+
+The scraper includes a centralized logger that writes logs to both the console and logs/scraper.log.
+![Logs output](screenshots/logs_output.PNG)  
+📸 Screenshot: File output (logs/scraper.log)
+
+---
+
 ## ⚙️ Installation & Usage  
 
 1. Clone the Repository  
@@ -136,17 +151,23 @@ All processed files are saved inside the `outputs/` folder:
    python -m scraper.parse_products  
 
    Step 3: Export to CSV, Excel, JSON  
-   python -m scraper.export_products  
+   python -m scraper.export_products 
+
+   Step 4 (Alternative): Run the full workflow
+   python main.py 
 
 The final structured outputs will be available in the `outputs/` directory.  
 
 ---
 
 ## ⚙️ Technologies Used  
-- Python 3.11 – Core language  
-- Requests – Fetch product data via API  
-- JSON & CSV modules – Structured outputs  
-- OpenPyXL – Excel reporting  
+- Python 3.11 – Core language
+- Requests – Fetch product data via API
+- BeautifulSoup4 – HTML parsing and content extraction
+- JSON & CSV modules – Structured outputs
+- OpenPyXL – Excel reporting
+- Pandas – Data parsing & cleaning
+- Logging – Centralized logger (console + file)
 
 ---
 
